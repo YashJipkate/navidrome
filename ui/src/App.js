@@ -15,6 +15,7 @@ import song from './song'
 import album from './album'
 import artist from './artist'
 import playlist from './playlist'
+import share from './share'
 import { Player } from './audioplayer'
 import customRoutes from './routes'
 import {
@@ -116,6 +117,7 @@ const Admin = (props) => {
         <Resource name="translation" />,
         <Resource name="playlistTrack" />,
         <Resource name="keepalive" />,
+        <Resource name="share" {...share} />,
         <Player />,
       ]}
     </RAAdmin>
