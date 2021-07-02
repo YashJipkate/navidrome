@@ -5,6 +5,7 @@ import { REST_URL } from '../consts'
 const dataProvider = jsonServerProvider(REST_URL, httpClient)
 
 const mapResource = (resource, params) => {
+  console.log(resource)
   switch (resource) {
     case 'albumSong':
       return ['song', params]
