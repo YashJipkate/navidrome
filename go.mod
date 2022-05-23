@@ -26,7 +26,7 @@ require (
 	github.com/google/wire v0.5.0
 	github.com/kennygrant/sanitize v0.0.0-20170120101633-6a0bfdde8629
 	github.com/kr/pretty v0.2.1
-	github.com/lestrrat-go/jwx v1.2.1
+	github.com/lestrrat-go/jwx v1.2.25
 	github.com/lib/pq v1.10.2 // indirect
 	github.com/matoous/go-nanoid v1.5.0
 	github.com/mattn/go-sqlite3 v2.0.3+incompatible
@@ -40,13 +40,12 @@ require (
 	github.com/sirupsen/logrus v1.8.1
 	github.com/spf13/cobra v1.1.3
 	github.com/spf13/viper v1.8.0
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.7.1
 	github.com/unrolled/secure v1.0.9
 	github.com/xrash/smetrics v0.0.0-20200730060457-89a2a8a1fb0b
 	github.com/ziutek/mymysql v1.5.4 // indirect
-	golang.org/x/crypto v0.0.0-20210513164829-c07d793c2f9a // indirect
 	golang.org/x/image v0.0.0-20191009234506-e7c1f5e7dbb8
-	golang.org/x/net v0.0.0-20210610132358-84b48f89b13b
+	golang.org/x/net v0.0.0-20211112202133-69e39bad7dc2
 	golang.org/x/tools v0.1.3
 	gopkg.in/djherbis/atime.v1 v1.0.0
 	gopkg.in/djherbis/stream.v1 v1.3.1
